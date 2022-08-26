@@ -1,0 +1,88 @@
+import React from 'react'
+
+export default function footer() {
+  return (
+    <div className="flex items-center justify-center w-full">
+
+<footer class="text-gray-600 body-font w-full  bg-[#462f2e]">
+
+
+  <div class="container px-5 w-fit py-16 mx-auto flex justify-center  items-center md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+
+
+
+    <div class="w-64 mx-20 flex-shrink-0 md:mx-0   text-center md:text-left">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="/logo.svg" alt="logo" className="w-20 h-20 bg-white rounded-full" />
+        <span class="ml-3 text-xl">Tailblocks</span>
+      </a>
+      <p class="mt-2 text-sm text-white">LLCO is working exclusively for the development of the under privilege sections of the society.</p>
+    </div>
+
+
+
+
+
+    <div class="flex-grow  justify-center flex flex-wrap  md:text-left text-center">
+      <div class="lg:w-80  md:w-1/2  px-4">
+        <h2 class="font-Bree font-bold  text-white  tracking-widest text-sm mb-3">ABOUT CHARITY</h2>
+        <nav class="list-none grid grid-cols-1 divide-y mb-10">
+          <li>
+            <div class="text-white  cursor-pointer pb-2     hover:text-gray-300">The Problems</div>
+          </li>
+          <li>
+            <div class="text-white py-2  cursor-pointer hover:text-gray-300">Financials</div>
+          </li>
+          <li>
+            <div class="text-white py-2 cursor-pointer hover:text-gray-300">Our Story</div>
+          </li>
+          <li>
+            <div class="text-white py-2   cursor-pointer hover:text-gray-300">Resources</div>
+            <div className="w-full h-[1px] bg-white"></div>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-80  md:w-1/2  px-4">
+        <h2 class="font-Bree  font-bold uppercase text-white cursor-pointer tracking-widest text-sm mb-3">More About Us</h2>
+        <nav class="list-none grid grid-col-1 divide-y  mb-10">
+          <li>
+            <div class="text-white pb-2 hover:text-gray-400">Our Blog </div>
+          </li>
+          <li>
+            <div class="text-white py-2 hover:text-gray-400">Watch our media </div>
+          </li>
+          <li>
+            <div class="text-white py-2 hover:text-gray-400">Contact and Help </div>
+          </li>
+          <li>
+            <div class="text-white py-2 hover:text-gray-400">Donate</div>
+            <div className="w-full h-[1px] bg-white"></div>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-80  md:w-1/2  px-4">
+        <h2 class="font-Op  font-bold uppercase text-white cursor-pointer tracking-widest text-sm mb-3"> React  to Us</h2>
+        <nav class="list-none   mb-10">
+          <li>
+            <div class="text-white  hover:text-gray-400">9971608252</div>
+          </li>
+          <li>
+            <div class="text-white  hover:text-gray-400">pragatisocialwelfaretrust.org</div>
+          </li>
+          <li>
+            <div class="text-white  hover:text-gray-400">171, Street No.2 Kh.No.46 A-block, Near Police Chowki ,
+                D.C.M Colony , Part-2 , Ibrahimpur , Delhi-110036
+                </div>
+          </li>
+         
+        </nav>
+      </div>
+     
+      
+    </div>
+  </div>
+ 
+</footer>
+    </div>
+  )
+}

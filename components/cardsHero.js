@@ -49,13 +49,13 @@ export default function cardsHero() {
           </div> */}
 
 
-<div className=" md:flex   w-3/4 md:items-start  md:justify-between">
+<div className=" md:flex   w-3/4  items-center justify-center  flex  md:justify-between">
     
-    
-              
-    <div className="max-w-xs  text-start   ">
+    <div className="md:flex md:items-start  md:justify-between   mx-auto ">
+
+    <div className="max-w-xs mx-4   text-start   ">
         <a href="#">
-            <Image width={500} height={350} className="" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Spreading-Education-p3a875wpq8h82lllxpqy64n0dbkk4il3tv3g7flu3k.jpg" alt=""/>
+            <Image width={500} height={350}  className="rounded" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Spreading-Education-p3a875wpq8h82lllxpqy64n0dbkk4il3tv3g7flu3k.jpg" alt=""/>
         </a>
         <div className="py-5">
             <a href="#">
@@ -70,9 +70,9 @@ export default function cardsHero() {
         </div>
     </div>
     
-    <div className="max-w-xs  text-start">
+    <div className="max-w-xs   mx-4  text-start">
         <a href="#">
-            <Image width={500} height={350} className="" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/LLCO-building-Future-p3d2g2tz51dfdov6zb6sxrgpuqt824k88p6993vlpc.jpg" alt=""/>
+            <Image width={500} height={350} className="rounded" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/LLCO-building-Future-p3d2g2tz51dfdov6zb6sxrgpuqt824k88p6993vlpc.jpg" alt=""/>
         </a>
         <div className="py-5">
             <a href="#">
@@ -85,9 +85,10 @@ export default function cardsHero() {
             </a>
         </div>
     </div>
-    <div className="max-w-xs  text-start">
+
+    <div className="max-w-xs   mx-4  text-start">
         <a href="#">
-            <Image width={500} height={350} className="" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Empowering-Lives-p3a875wpq8h82lllxpqy64n0dbkk4il3tv3g7flu3k.jpg" alt=""/>
+            <Image width={500} height={350} className="w-full rounded  h-full " src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Empowering-Lives-p3a875wpq8h82lllxpqy64n0dbkk4il3tv3g7flu3k.jpg" alt=""/>
         </a>
         <div className="py-5">
             <a href="#">
@@ -99,6 +100,9 @@ export default function cardsHero() {
                 <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="#ce842f" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path filrule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
             </a>
         </div>
+    </div>
+
+
     </div>
 </div >
 

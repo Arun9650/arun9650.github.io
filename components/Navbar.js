@@ -113,7 +113,7 @@ export default function Navbar() {
                         <i className='px-2 cursor-pointer text-purple-900 text-xl'><BsInstagram /></i>
                         <i className='px-2 cursor-pointer text-blue-900  text-xl'><FaFacebookSquare /></i>
                         <i className='px-2 cursor-pointer text-red-700 text-xl'><IoLogoYoutube /></i>
-                            <button  onClick={makePayment} className="border px-7 py-3 rounded bg-blue-400 text-white">Donation</button>
+                            <button  onClick={makePayment} className="btn btn-primary">Donation</button>
                         {/* <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KBVkDwk0DAHD0M" async> </script> </form> */}
      
 

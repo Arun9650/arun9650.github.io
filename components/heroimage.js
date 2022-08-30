@@ -4,7 +4,7 @@ export default function HeroImage() {
   return (
     <div className="h-[70vh] z-0 relative overflow-hidden
     
-    bg-[url('https://llcoindia.org/wp-content/uploads/2019/04/indian-1717192_1920-Copy.jpg')]
+    bg-[url('https://i.pinimg.com/originals/f9/4e/68/f94e68502c93440a97c87550314c453d.jpg')]
       bg-fixed
       w-full bg-cover bg-no-repeat
     bg-center">

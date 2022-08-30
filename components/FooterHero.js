@@ -5,7 +5,7 @@ export default function FooterHero() {
         <div>
 
             <div className="relative  h-[90vh] overflow-hidden">
-                <Image width={1550} height={800} src="https://llcoindia.org/wp-content/uploads/2019/04/educating-street-children.jpg" alt="image"
+                <Image layout="fill" src="https://llcoindia.org/wp-content/uploads/2019/04/educating-street-children.jpg" alt="image"
                     className="w-full object-center object-cover h-full"
                 />
                 <div className="absolute top-0 bottom-0 left-0 right-0  bg-[#0c0c0c] opacity-50"></div>

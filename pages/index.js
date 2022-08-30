@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from '../components/hero'
 import CardsHero from '../components/cardsHero'
-import Sponsers from '../components/sponsers'
-import HeroImage from '../components/HeroImage'
+import Sponsers  from '../components/sponsers'
+import Heroimage from '../components/HeroImage'
 import Arun from '../components/arun'
 import Onefacecard from "../components/Onefacecard";
 import Colums from '../components/Colums'
@@ -15,7 +15,7 @@ export default function Home() {
       <Hero/>
       <CardsHero/>
       <Sponsers/>
-      <HeroImage/>
+      <Heroimage/>
       <Arun/>
       <Onefacecard/>
       <Colums/>

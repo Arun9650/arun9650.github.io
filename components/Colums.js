@@ -3,7 +3,7 @@ import {FaChild,FaAnchor,FaRegHandSpock} from 'react-icons/fa'
 import {BiAnchor} from 'react-icons/bi'
 export default function Colums() {
   return (
-    <section className="text-black container body-font">
+    <section className="text-black container max-w-[1140px] mx-auto body-font">
     <div className="container px-5 py-24 mx-auto">
       <div className="text-center mb-20">
         <h1 className="sm:text-4xl text-xl font-medium uppercase font-Bree tracking-widest  title-font text-gray-900 mb-4">Get Involved</h1>

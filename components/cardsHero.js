@@ -48,7 +48,7 @@ export default function cardsHero() {
           </div> */}
 
 
-<div className="flex   w-3/4 items-start  justify-between">
+<div className=" md:flex   w-3/4 md:items-start  md:justify-between">
     
     
               
@@ -64,7 +64,7 @@ export default function cardsHero() {
 
             <a href="#" className="inline-flex items-center py-2 uppercase  text-sm font-bold  text-center text-[#ce842f]">
                 About us 
-                <svg ariaHidden="true" className="ml-2  -mr-1  w-4 h-4" fill="#ce842f" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                <svg aria-hidden="true" className="ml-2  -mr-1  w-4 h-4" fill="#ce842f" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
             </a>
         </div>
     </div>
@@ -80,7 +80,7 @@ export default function cardsHero() {
             <p className="mb-3 font-normal ">Our mission is to make the underprivileged sections free from illiteracy, ignorance, exploitation and discrimination. where all sections of society live with harmony and cooperation.</p>
             <a href="#" className="inline-flex items-center py-2  text-sm font-bold uppercase text-center text-[#ce842f] ">
                 find out more
-                <svg ariaHidden="true" className="ml-2 -mr-1 w-4 h-4" fill="#ce842f" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="#ce842f" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
             </a>
         </div>
     </div>
@@ -95,7 +95,7 @@ export default function cardsHero() {
             <p className="mb-3 font-normal">Across India, various LLCO supported projects bring dignity and smile to less fortunate people of the society, your support is very important to us.</p>
             <a href="#" className="inline-flex items-center py-2  uppercase text-sm font-bold text-center text-[#ce842f]">
                 how you help
-                <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="#ce842f" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path filRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="#ce842f" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path filrule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
             </a>
         </div>
     </div>

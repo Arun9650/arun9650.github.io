@@ -9,19 +9,14 @@ export default function hero() {
   return (
     
     <div className="relative   min-h-[80vh]  overflow-hidden">
-        <div className="min-h-[80vh] border overflow-hidden">
-      <Image
-        src="https://llcoindia.org/wp-content/uploads/2019/04/Banner-Image.jpg"
-        className="z-0
-        "
-        width={1900}
-        height={1000}
-        alt="image"
-      />
+        <div className="min-h-[90vh]
+          bg-center bg-cover bg-no bg-no-repeat	
+        border bg-[url(https://llcoindia.org/wp-content/uploads/2019/04/Banner-Image.jpg)] overflow-hidden">
+    
 </div>
       <div className="absolute top-0   z-0 bottom-0 right-0 left-0 bg-black bg-opacity-50"></div>
-      <div className="absolute h-full border flex items-center  z-1 top-0 bottom-0 left-0">
-        <div className="px-4 py-16 mx-auto flex items-center border mt-14  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="absolute h-full flex items-center  pl-20 z-1 top-0 bottom-0 left-0">
+        <div className="px-4 py-16 mx-auto flex items-center  mt-14  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col items-center  justify-between xl:flex-row">
             <div className="w-full max-w-xl mb-12 ">
               <div className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">

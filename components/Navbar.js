@@ -137,7 +137,7 @@ export default function Navbar() {
                         <a className='hover:text-blue-700   text-lg font-shadow cursor-pointer px-4 hover:underline'>Gallary </a>
 
                         </Link>
-                        <a className='hover:text-blue-700   text-lg font-shadow cursor-pointer px-4 hover:underline'>Resources </a>
+                        
                         <a className='hover:text-blue-700   text-lg font-shadow cursor-pointer px-4 hover:underline'>Get Involved </a>
 
                         <Link href="/Contact">

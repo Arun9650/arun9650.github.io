@@ -4,6 +4,7 @@ import { GoogleMap,Marker, LoadScript } from '@react-google-maps/api';
 import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios'
 import emailjs from '@emailjs/browser';
+import Image from 'next/image'
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
@@ -55,7 +56,7 @@ export default function Contact() {
         <section className="text-gray-600 body-font relative">
   <div className="container px-5 py-24 mx-auto md:flex sm:flex-nowrap flex-wrap">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-      <div width="100%" height="100%" className="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no"  >
+      <div width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no"  >
       <LoadScript
       googleMapsApiKey="AIzaSyC33M7eaDIm3nM7-H9ElQdeGjiMDeg1iNE"
     >
@@ -95,17 +96,17 @@ export default function Contact() {
       <p className="leading-relaxed mb-5 text-gray-600">
         Feel free to react out us , about any thing</p>
       <div className="relative mb-4">
-        <label for="name" className="leading-7 text-sm text-gray-600">Name</label>
+        <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>
         <input type="text" id="name" name="user_name" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-4">
-        <label for="email" className="leading-7 text-sm text-gray-600">Email</label>
+        <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
         <input type="email"
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
         id="email" name="user_email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-4">
-        <label required for="message" className="leading-7 text-sm text-gray-600">Message</label>
+        <label required htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
         <textarea required id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
       </div>
       <button  

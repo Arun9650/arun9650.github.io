@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Onefacecard() {
     return (
 
@@ -9,7 +9,7 @@ export default function Onefacecard() {
                     <div className="container  justify-evenly mx-auto flex px-5 py-24 md:flex-row flex-col  items-center">
                         <div className="flex  items-start  justify-between ">
                             <div className="flex-shrink-0  w-64 h-64   object-cover object-center sm:mb-0 mb-4">
-                                <img className="object-cover border object-center rounded-full" alt="hero" src="https://cdn.shortpixel.ai/spai/w_496+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Mrityunjay-Narayanan-p3a8naswm519jdv7w35fc7v6kayqrm5c2lkokib0co.jpg" />
+                                <Image width={1000} height={1000} className="object-cover border object-center rounded-full" alt="hero" src="https://cdn.shortpixel.ai/spai/w_496+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Mrityunjay-Narayanan-p3a8naswm519jdv7w35fc7v6kayqrm5c2lkokib0co.jpg" />
                             </div>
                             <div className="  w-2/3  ml-4 justify-center  min-h-min   flex flex-col md:items-start md:text-left items-center ">
                                 <p className="mb-8  text-white  text-2xl font-light font-OpenSans  leading-none">“One person can make all the difference for a child across the globe…LLCO is living proof that, although helping just one person can seem like a drop in the ocean, that drop can be a person’s whole world. One by one…we will change the world for the better.”</p>

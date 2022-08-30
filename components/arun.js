@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function arun() {
   return (
     <div className="container max-w-screen-lg  flex h-screen my-20 mx-auto  ">
@@ -7,7 +7,7 @@ export default function arun() {
             <p className="uppercase my-6 text-2xl font-Bree">vision of LLCO</p>
             <p className="text-[#7a7a7a] my-4">We are working tirelessly to ensure better outcomes for visually impaired children in India and across the world.</p>
             <div className="">
-            <img src="Donating.jpeg" className="h-[50vh]  w-full  bg-cover" alt="Rating Image" />
+            <Image width={1000} height={1000} src="/Donating.jpeg" className="h-[50vh]  w-full  bg-cover" alt="Rating Image" />
             </div>
 
             <p className="my-4 text-2xl font-bold font-OpenSans">Project Showcase</p>

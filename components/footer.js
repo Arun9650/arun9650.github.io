@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function footer() {
   return (
     <div className="flex items-center justify-center w-full">
@@ -13,7 +13,7 @@ export default function footer() {
 
     <div className="w-64 mx-20 flex-shrink-0 md:mx-0   text-center md:text-left">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="/logo.svg" alt="logo" className="w-20 h-20 bg-white rounded-full" />
+        <Image src="/logo.svg" alt="logo" className="w-20 h-20 bg-white rounded-full" width={100} height={100} />
         <span className="ml-3 text-xl">Tailblocks</span>
       </a>
       <p className="mt-2 text-sm text-white">LLCO is working exclusively for the development of the under privilege sections of the society.</p>

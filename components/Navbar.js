@@ -104,7 +104,7 @@ export default function Navbar() {
                 <div className='flex  items-center justify-between px-8'>
                     <div className='flex  items-center  h-min justify-center'>
                     <ToastContainer position='bottom-right' limit={1} />
-                        <Image src="/logo.svg" alt="logo" className='' width={100} height={100} />
+                        <Image src="/logo.svg" alt="logo"  width={100} height={100} />
                         <p>Pragati Social Welfere Trust </p>
                     </div>
 

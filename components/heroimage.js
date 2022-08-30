@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function image() {
+export default function HeroImage() {
   return (
     <div className="h-[70vh] z-0 relative overflow-hidden
     

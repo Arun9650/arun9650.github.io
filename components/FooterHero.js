@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function FooterHero() {
     return (
         <div>
 
             <div className="relative  h-[90vh] overflow-hidden">
-                <img src="https://llcoindia.org/wp-content/uploads/2019/04/educating-street-children.jpg" alt="image"
+                <Image width={1550} height={800} src="https://llcoindia.org/wp-content/uploads/2019/04/educating-street-children.jpg" alt="image"
                     className="w-full object-center object-cover h-full"
                 />
                 <div className="absolute top-0 bottom-0 left-0 right-0  bg-[#0c0c0c] opacity-50"></div>

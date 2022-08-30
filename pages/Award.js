@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import '../styles/image.module.css'
+import Image from 'next/image'
 export default function Award() {
   return (
     <div>
@@ -12,10 +13,10 @@ export default function Award() {
     <div className="hover-fold">
   <div className="top">
     <div className="front face  ">
-        <img src="/image2.jpeg" alt="" />
+        <Image src="/image2.jpeg" alt="" widht={1000} height={1000} />
     </div>
     <div className="back face">
-      <p>I designed this shirt for my friend's band "2 or More". I was really excited to play with the transparencies in the ink. I thought it would be fun, but the screen printer didn't.</p>
+      <p>I designed this shirt for my friend&apos;s band &quot;2 or More&quot;. I was really excited to play with the transparencies in the ink. I thought it would be fun, but the screen printer didn&rsquo;  t.</p>
     </div>
   </div>
   

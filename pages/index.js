@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from '../components/hero'
 import CardsHero from '../components/cardsHero'
 import Sponsers  from '../components/sponsers'
+import Imageconponent from '../components/Imagecomponent'
 // import Heroimage from  '../components/Heroimage'
 import Arun from '../components/arun'
 import Onefacecard from "../components/Onefacecard";
@@ -15,7 +16,8 @@ export default function Home() {
       <Hero/>
       <CardsHero/>
       <Sponsers/>
-      {/* <Heroimage/> */}
+      {/* <Heroimage/> */}\
+      <Imageconponent/>
       <Arun/>
       <Onefacecard/>
       <Colums/>

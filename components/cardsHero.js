@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function cardsHero() {
     return (
-        <div className="flex flex-col my-9 text-black items-center text-center ">
+        <div className="flex my-20 flex-col  text-black items-center text-center ">
             <div className="m-4 text-2xl leading-7 w-3/4 uppercase tracking-widest font-semibold font-Bree text-[#462f2e] ">
                 <p className="">Once a blind man asked Swami Vivekananda - &quot;what is worse than losing your eyesight?&quot; Swamiji replied &quot;it&quot;s losing your vision.&quot;</p>
             </div>
@@ -55,7 +55,7 @@ export default function cardsHero() {
 
     <div className="max-w-xs mx-4   text-start   ">
         <a href="#">
-            <Image width={500} height={350}  className="rounded" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Spreading-Education-p3a875wpq8h82lllxpqy64n0dbkk4il3tv3g7flu3k.jpg" alt=""/>
+            <Image width={500} height={300}  className="rounded" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Spreading-Education-p3a875wpq8h82lllxpqy64n0dbkk4il3tv3g7flu3k.jpg" alt=""/>
         </a>
         <div className="py-5">
             <a href="#">
@@ -72,7 +72,7 @@ export default function cardsHero() {
     
     <div className="max-w-xs   mx-4  text-start">
         <a href="#">
-            <Image width={500} height={350} className="rounded" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/LLCO-building-Future-p3d2g2tz51dfdov6zb6sxrgpuqt824k88p6993vlpc.jpg" alt=""/>
+            <Image width={500} height={300} className="rounded" src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/LLCO-building-Future-p3d2g2tz51dfdov6zb6sxrgpuqt824k88p6993vlpc.jpg" alt=""/>
         </a>
         <div className="py-5">
             <a href="#">
@@ -88,7 +88,7 @@ export default function cardsHero() {
 
     <div className="max-w-xs   mx-4  text-start">
         <a href="#">
-            <Image width={500} height={350} className="w-full rounded  h-full " src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Empowering-Lives-p3a875wpq8h82lllxpqy64n0dbkk4il3tv3g7flu3k.jpg" alt=""/>
+            <Image width={500} height={300} className="w-full rounded  h-full " src="https://cdn.shortpixel.ai/spai/w_437+q_lossy+ret_img+to_webp/https://llcoindia.org/wp-content/uploads/elementor/thumbs/Empowering-Lives-p3a875wpq8h82lllxpqy64n0dbkk4il3tv3g7flu3k.jpg" alt=""/>
         </a>
         <div className="py-5">
             <a href="#">

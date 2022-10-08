@@ -1,9 +1,16 @@
-import Navbar from "../components/Navbar";
-import Hero from '../components/hero'
+// import Navbar from "../components/Navbar";
+// import Navbar from '../components/NavBarNew'
+import dynamic from 'next/dynamic'
+
+const Navbar = dynamic(() => import('../components/NavBarNew'), {
+  ssr: false,
+})
+// import Hero from '../components/hero'
+import Hero from '../components/heronew'
 import CardsHero from '../components/cardsHero'
 import Sponsers  from '../components/sponsers'
 import Imageconponent from '../components/Imagecomponent'
-// import Heroimage from  '../components/Heroimage'
+
 import Arun from '../components/arun'
 import Onefacecard from "../components/Onefacecard";
 import Colums from '../components/Colums'
@@ -15,8 +22,8 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <CardsHero/>
-      <Sponsers/>
-      {/* <Heroimage/> */}\
+      {/* <Sponsers/> */}
+      
       <Imageconponent/>
       <Arun/>
       <Onefacecard/>

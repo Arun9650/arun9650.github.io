@@ -12,8 +12,8 @@ export default async function handler(req, res) {
 
     // Create an order -> generate the OrderID -> Send it to the Front-end
     const payment_capture = 1;
-    const amount = 2;
-    const currency = "INR";
+    const amount =  1;
+           const currency = "INR";
     const options = {
       amount: (amount * 100).toString(),
       currency,
